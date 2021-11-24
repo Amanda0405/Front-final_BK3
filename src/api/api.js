@@ -1,5 +1,5 @@
 const Api = {
-  apiUrl: 'https://backend-api-restful.herokuapp.com/infantis',
+  apiUrl: 'https://back-end-api-restfull.herokuapp.com/infantis',
   fetchGetAll: () => fetch(`${Api.apiUrl}/listAll`),
   fetchGetById: id => fetch(`${Api.apiUrl}/listId/${id}`),
   fetchPost: (vaga) => {
